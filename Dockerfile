@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /home/choreouser
 
-EXPOSE 5050
+EXPOSE 5000
 
 COPY files/* /home/choreouser/
 
